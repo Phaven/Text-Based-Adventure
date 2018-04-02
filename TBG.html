@@ -1,0 +1,156 @@
+<html>
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" type="text/css" href="TBG.css"
+<title>
+Text Adventure
+</title>
+</head>
+<body>
+
+  <div id='inv_box'></div>
+  <div id='morale_count'></div>
+
+  <div id= "s1">
+    <p>You're in dark room. All you can make out is a table in front of you. What do you do?</p>
+      <p><a id= "s1c1">Check the table.</p>
+      <p><a id= "s1c2">Search for a light switch.</p>
+  </div>
+
+  <div id= "s2">
+    <p>On the table you find a single key and two lock boxes. Which do you open?</p>
+      <p><a id= "s2c1">Lock box on the left.</p>
+      <p><a id= "s2c2">Lock box on the right.</p>
+  </div>
+
+  <div id= "s3">
+    <p>While searching the room you discover a red and a blue switch. Which do you use?</p>
+      <p><a id= "s3c1">Red switch.</p>
+      <p><a id= "s3c2">Blue switch.</p>
+  </div>
+
+  <div id= "s4">
+    <p>Upon turning the key it breaks but the box opens. Inside you find a flashlight. You click on the flashlight. On the other side of the room you find two locked doors.</p>
+      <p><a id= "s4c1">Try the door on the left.</p>
+      <p><a id= "s4c2">Try the door on the right.</p>
+  </div>
+
+  <div id= "s5">
+    <p>Upon turning the key it breaks but the box opens. Inside you find a letter.
+       The letter informs you that your only chance of getting out of the room was in the other box and you have failed the test.
+      You spend the rest of your few days searching for an escape to no avail.</p>
+  </div>
+
+  <div id= "s6">
+    <p>A small tv in the corner turns on. The tv starts a program of a
+      man informing you that you are trapped in this room and you'll either escape and live or fail and die. On the floor you spot and pick up a blue key.</p>
+      <p><a id= "s6c1">Go back to the table and investigate it.</p>
+      <p><a id= "s6c2">Look for the lock for the key.</p>
+
+  </div>
+
+  <div id= "s7">
+    <p>You're blinded by light. As your eyes adjust you see that the table has two lock boxes
+       and a key. You also make out a tv, a safe and a vent when the lights shut back off.</p>
+      <p><a id= "s7c1">Check out the table.</p>
+      <p><a id= "s7c2">Try the red switch and investigate the tv.</p>
+  </div>
+
+  <div id= "s8">
+    <p>On the table you find a single key and two lock boxes. Which do you open?</p>
+      <p><a id= "s8c1">Lock box on the left.</p>
+      <p><a id= "s8c2">Lock box on the right.</p>
+  </div>
+
+  <div id= "s9">
+    <p>You turn the TV on and it starts a program of a
+      man informing you that you are trapped in this room and you'll either escape and live or fail and die. On the floor you spot and pick up a blue key.</p>
+      <p><a id= "s9c1">Go back to the table and investigate it.</p>
+      <p><a id= "s9c2">Look for the lock for the key.</p>
+
+  </div>
+
+  <div id= "s10">
+    <p>Upon turning the key it breaks but the box opens. Inside you find a flashlight. You click on the flashlight. On the other side of the room you find two locked doors.</p>
+      <p><a id= "s10c1">Try the door on the left.</p>
+      <p><a id= "s10c2">Try the door on the right.</p>
+  </div>
+
+  <div id= "s11">
+    <p>Upon turning the key it breaks but the box opens. Inside you find a letter.
+       The letter informs you that your only chance of getting out of the room was in the other box and you have failed.
+      You spend the rest of your few days searching for an escape to no avail.</p>
+  </div>
+
+  <div id= "s12">
+    <p>On the table you find a single key and two lock boxes. Which do you open?</p>
+      <p><a id= "s12c1">Lock box on the left.</p>
+      <p><a id= "s12c2">Lock box on the right.</p>
+  </div>
+
+  <div id= "s13">
+    <p>Upon turning the key it breaks but the box opens. Inside you find a flashlight and another key. You click on the flashlight. On the other side of the room you find two locked doors.</p>
+      <p><a id= "s13c1">Try the door on the left.</p>
+      <p><a id= "s13c2">Try the door on the right.</p>
+  </div>
+
+  <div id= "s14">
+    <p>Upon turning the key it breaks but the box opens. Inside you find a letter.
+       The letter informs you that your only chance of getting out of the room was in the other box and you have failed the test.
+      You spend the rest of your few days searching for an escape to no avail.</p>
+  </div>
+
+
+  <div id='mBKey'>
+    <p> You appear to be missing the key to the doors. Check around for the key.</p>
+    <p><a id='blueSwitch'>Check the blue switch for the key.</p>
+    <pa><a id='redSwitch'>Check the red switch for the key.</p>
+  </div>
+
+  <div id='mBKey1'>
+    <p>You check the blue switch but don't find any keys.</p>
+    <p><a id='b2R'>Check the red switch.</p>
+  </div>
+
+  <div id='blue2Red'>
+    <p>You walk up to the red switch and spot a blue key on the floor.</p>
+      <p><a id='r2DFB'>Return to the doors.</p>
+    </div>
+
+  <div id='mBKey2'>
+    <p>You walk up to the red switch and spot a blue key on the floor.</p>
+    <p><a id='r2D'>Return to the doors.</p>
+  </div>
+
+<div id= 'doors'>
+  <p>You find two locked doors. There is one door to your left and one to your right. Which do you try.</p>
+  <p><a id='doorsC1'>Try the door on the left.</p>
+  <p><a id='doorsC2'>Try the door on the right.</p>
+</div>
+
+<div id= 'leftdoor'>
+  <p>Upon opening the door and entering the room you immediately are immediately faced with two old looking statues. Both have a lever underneath. Which do you pull.</p>
+    <p><a id='ldoor1'>Pull the lever on the left.</p>
+    <p><a id='ldoor2'>Pull the lever on the right.</p>
+</div>
+
+<div id= 'rightdoor'>
+  <p>Upon opening the door and entering the room you fall into a pit with no way out. You're journey has now come to an end.</p>
+</div>
+
+<div id= 'leftstatue'>
+  <p>You pull the lever and an audible click can be heard from the other statue but nothing happens. You run over to the other statue but no matter how hard you try the lever won't budge.</p>
+</div>
+
+<div id= 'rightstatue'>
+  <p> You pull the lever and a small passage to your right opens. You crawl through only going by the light of your flashlight. Finally after what seems like forever you see a light at the end. You rush to it and are blinded briefly. As your vision returns you find yourself overlooking a peaceful forest and your home city. With a smile you return home.</p>
+</div>
+
+
+    <img id='loss' src= "https://i.imgur.com/T8T3vz2.png" alt= "Dead" width= "796" height= "171">
+
+    <img id='win' src= 'https://steamuserimages-a.akamaihd.net/ugc/868491890537427104/74902B9DE9070ABAF11965752DDA6365A5772DAA/' alt="Survivor" width= '669 ' height= '85'>
+
+  <script src="TBG.js"></script>
+</body>
+</html>

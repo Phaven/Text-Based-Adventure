@@ -1,0 +1,43 @@
+html{
+  background-color: black;
+  color: white;
+}
+
+div{
+display: none;
+font-size:14pt;
+font-family: garamond;
+}
+
+a:hover{
+  font-variant:small-caps;
+  color:red;
+}
+
+#loss{
+  display: none;
+  margin:auto;
+}
+
+#win{
+  display: none;
+  margin:auto;
+}
+
+#inv_box{
+  display:flex;
+  color:black;
+  background:white;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+ #morale_count{
+   display:flex;
+   background:purple;
+   color:yellow;
+   position: fixed;
+   bottom: 75px;
+   right: 50px;
+ }
